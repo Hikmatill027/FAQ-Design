@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: url("/practice/FAQ/images/background-pattern-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: pink;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.container {
+    height: 60%;
+    width: 40%;
+    background-color: aliceblue;
+    border-radius: 5%;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.questions {
+    display: flex;
+    flex-direction: column; /* Keeps questions in a vertical list */
+    gap: 8px; /* Space between each question-item */
+}
+
+.question-item {
+    display: flex;
+    justify-content: space-between; /* Places h5 on the left, icon on the right */
+    align-items: center; /* Aligns h5 and img vertically in the center */
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd; /* Optional: for a divider line */
+}
+
+.question-item h5 {
+    margin: 0;
+    font-size: 16px; /* Adjust font size if needed */
+}
